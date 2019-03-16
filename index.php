@@ -1,4 +1,4 @@
-//字符串去重复着 “a,s,c,d,a,a,s,c” 
+//字符串去重复值   “a,s,c,d,a,a,s,c” 
 public function unique($str){
       $arr = explode(',',$str);
       $arr = array_unique($arr);
